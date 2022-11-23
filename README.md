@@ -1,6 +1,6 @@
 # cloud-assignments ☁️ ![AWS](templates/Open_Source.svg) ![AWS](templates/aws.svg) 
 
-![](templates/Creative%20team-cuate.svg)
+<img src="templates/Creative%20team-cuate.svg" width="250" >
  
 ## Description 
 🚀 Open-source curated certification assignment & solution repo for my fellow professional classmates.
