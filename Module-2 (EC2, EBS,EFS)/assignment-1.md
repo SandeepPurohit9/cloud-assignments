@@ -21,11 +21,10 @@ making them web servers
 10. In advanced settings , add following commands in User data to be executed 
 ```
 #!/bin/bash
-sudo apt update -y
-sudo apt install nginx -y
-sudo systemctl enable nginx
+sudo apt-get update -y
+sudo apt-get install nginx -y
 cd /var/www/html
-echo "<html><h1>Congratulations! Hello world on $(hostname) an Amazon EC2 instance.</h1></html>" > index.html 
+echo "<html><h1>Congratulations! Hello world on $(hostname) an Amazon EC2 instance.</h1></html>" > index.nginx-debian.html 
 ```
 Keep all other settings to default and choose Launch instance.
 
